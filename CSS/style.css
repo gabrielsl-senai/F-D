@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(121, 49, 21);
+}
+
+.capa-tela{
+background-color:rgb(71, 27, 9) ;
+padding: 50px 40px;
+border-radius: 10px;
+box-shadow: 0 10px 30px rgba(36, 10, 0, 0.9);
+}
+
