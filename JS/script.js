@@ -1,9 +1,9 @@
 function abrir(){
-    document.getElementById("capa-tela").style.display = "none";
-    document.getElementById("tela-lobby").style.display = "block";
+    document.getElementById("capa").style.display = "none";
+    document.getElementById("principal").style.display = "block";
 
 }
 function fechar(){
-    document.getElementById("tela-lobby").style.display = "none";
-    document.getElementById("capa-tela").style.display = "flex";
+    document.getElementById("principal").style.display = "none";
+    document.getElementById("capa").style.display = "flex";
 }
