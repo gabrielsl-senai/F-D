@@ -5,6 +5,5 @@ function abrir(){
 }
 function fechar(){
     document.getElementById("tela-lobby").style.display = "none";
-    document.getElementById("capa-tela").style.display = "block";
-
+    document.getElementById("capa-tela").style.display = "flex";
 }
