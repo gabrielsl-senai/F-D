@@ -1,6 +1,6 @@
 
 body{
-background-color: #000000;
+background-color: #202020;
 display: flex;
  justify-content: center;
  align-items: center;
@@ -8,20 +8,77 @@ display: flex;
 }
 
 .capa-tela{
-background-color:#1a1a1a ;
-padding: 50px 40px;
+background: rgba(255, 255, 255, 0.068);;
+padding: 120px 40px;
 border-radius: 10px;
 box-shadow: 0 10px 30px rgba(49, 49, 49, 0.9);
-
+backdrop-filter: blur(12px);
+-webkit-backdrop-filter: blur(12px);
+border: 1px solid rgba(255, 255, 255, 0.18);
+box-shadow: 0 8px 32px 0 rgba(32, 32, 32, 0.37);
+border-radius: 16px;
 }
 
 .capa-tela{
  color: rgb(255, 255, 255);
 }
 .btn-entrar{
- background-color: rgb(0, 0, 0);
+ background-color: #202020;
  border-radius: 5px;
  padding: 20px 100px;
  border: none;
  color: aliceblue;
 }
+
+.tela-lobby{
+display: flex;
+flex-direction: column;
+justify-content: left;
+gap: 15px;
+}
+.mapa{
+background:rgba(255, 255, 255, 0.068);
+color: rgb(255, 255, 255);
+padding: 25px 100px;
+border-radius: 10px;
+box-shadow: 0 10px 30px rgba(49, 49, 49, 0.9);
+backdrop-filter: blur(12px);
+-webkit-backdrop-filter: blur(12px);
+border: 1px solid rgba(255, 255, 255, 0.18);
+box-shadow: 0 8px 32px 0 rgba(32, 32, 32, 0.37);
+border-radius: 16px;
+}
+.lore{
+background:rgba(255, 255, 255, 0.068);
+color: rgb(255, 255, 255);
+padding: 25px 100px;
+border-radius: 10px;
+box-shadow: 0 10px 30px rgba(49, 49, 49, 0.9);
+backdrop-filter: blur(12px);
+-webkit-backdrop-filter: blur(12px);
+border: 1px solid rgba(255, 255, 255, 0.18);
+box-shadow: 0 8px 32px 0 rgba(32, 32, 32, 0.37);
+border-radius: 16px;
+}
+.personagens{
+    background:rgba(255, 255, 255, 0.068);
+    color: rgb(255, 255, 255);
+    padding: 25px 100px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(49, 49, 49, 0.9);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(32, 32, 32, 0.37);
+    border-radius: 16px;}
+.sistema{
+    background:rgba(255, 255, 255, 0.068);
+    color: rgb(255, 255, 255);
+    padding: 25px 100px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(49, 49, 49, 0.9);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(32, 32, 32, 0.37);
+    border-radius: 16px;}
